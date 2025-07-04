@@ -1,0 +1,10 @@
+<style>
+  body {
+    background-image: url('A_high-resolution_digital_photograph_with_overlaid.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+</style>
