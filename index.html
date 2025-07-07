@@ -5,17 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NEFA</title>
   <style>
-    body {
+    * {
       margin: 0;
-      background-color: #000; /* Siyah zemin */
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      background: url('images/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
     }
     img.logo {
       max-width: 500px;
-      width: 90%;
+      width: 80%;
+      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
     }
   </style>
 </head>
