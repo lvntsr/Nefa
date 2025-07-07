@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NEFA</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
     * {
       margin: 0;
       padding: 0;
@@ -15,17 +17,40 @@
       background: url('bg.jpg') no-repeat center center fixed;
       background-size: cover;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      font-family: 'Playfair Display', serif;
+      color: white;
+      text-align: center;
     }
     img.logo {
       max-width: 500px;
       width: 80%;
       filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+      margin-bottom: 30px;
+    }
+    .manifesto {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px 30px;
+      border-radius: 12px;
+      font-size: 1.4rem;
+      line-height: 1.8;
+      max-width: 700px;
+    }
+    .closing {
+      margin-top: 40px;
+      font-style: italic;
+      opacity: 0.8;
+      font-size: 1.1rem;
     }
   </style>
 </head>
 <body>
   <img src="nefa-logo.png" alt="NEFA Logo" class="logo" />
+  <div class="manifesto">
+    Bağ kurmak için buradayız, toprakla, şarapla, birbirimizle...
+  </div>
+  <div class="closing">Yakında görüşmek üzere.</div>
 </body>
 </html>
